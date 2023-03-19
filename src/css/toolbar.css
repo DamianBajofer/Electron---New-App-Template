@@ -1,0 +1,74 @@
+/**
+* Este es el estilo de la barra donde estara nuestro icono,
+* titulo y botones para minimizar, maximizar y salir de la aplicacion.
+*/
+#app-toolbar{
+	background-color:#292C31;
+	border-bottom:1px solid rgba(35,35,35,1);
+	height:32px;
+	overflow:hidden;
+}
+#app-toolbar #toolbar-icon{
+	background-image:url('../../icon.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:32px;
+	height:32px;
+	float:left;
+}
+#app-toolbar #toolbar-title{
+	width:60%;
+	height:100%;
+	color:rgb(216, 214, 214);
+	text-shadow:0px 0px 1px rgba(0,0,0,1);
+	font-size:12px;
+	font-family:verdana;
+	line-height:32px;
+	-webkit-app-region:drag;
+	float:left;
+}
+#app-toolbar #toolbar-actions{
+	width:120px;
+	height:100%;
+	float:right;
+	overflow:hidden;
+}
+#app-toolbar #toolbar-actions .toolbar-actions-item{
+	float:right;
+}
+#app-toolbar #toolbar-actions #toolbar-actions-menu{
+	background:url('../images/toolbar/menu-toolbar.svg') center center no-repeat;
+	background-size:35%;
+	width:40px;
+	height:100%;
+}
+#app-toolbar #toolbar-actions #toolbar-actions-minimize{
+	background:url('../images/toolbar/minimize.svg') center center no-repeat;
+	background-size:28%;
+	width:40px;
+	height:100%;
+	cursor:default;
+}
+#app-toolbar #toolbar-actions #toolbar-actions-maximize{
+	background:url('../images/toolbar/maximize.svg') center center no-repeat;
+	background-size:25%;
+	width:40px;
+	height:100%;
+	cursor:default;
+}
+#app-toolbar #toolbar-actions #toolbar-actions-close{
+	background:url('../images/toolbar/close.svg') center center no-repeat;
+	background-size:35%;
+	width:40px;
+	height:100%;
+	cursor:default;
+}
+#app-toolbar #toolbar-actions #toolbar-actions-minimize:hover,
+#app-toolbar #toolbar-actions #toolbar-actions-maximize:hover,
+#app-toolbar #toolbar-actions #toolbar-actions-menu:hover{
+	background-color:rgba(255,255,255,0.2);
+}
+#app-toolbar #toolbar-actions #toolbar-actions-close:hover{
+	background-color:rgba(255, 0, 34, 0.877)
+}

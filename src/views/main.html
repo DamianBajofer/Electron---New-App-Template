@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel='stylesheet' href='../css/reset.css'>
+	<link rel='stylesheet' href='../css/fonts.css'>
+	<link rel='stylesheet' href='../css/app.css'>
+	<link rel='stylesheet' href='../css/toolbar.css'>
+	<link rel='stylesheet' href='../css/menu.css'>
+	<script src='../js/requires.js'></script>
+	<script src='../js/main.js'></script>
+</head>
+<body>
+    <div id='app'>
+
+        <!--
+			Se establece un basic toolbar para cada una de las ventanas que contengan como
+			archivo principal de vista el 'main.html'
+			Este archivo 'main.html' seria el template para cada ventana creada, luego cada ventana
+			podra contener cada unas de las vistas que uno desee.
+			O bien puedes crear un archivo principal para distintas ventanas.
+		-->
+		<div id='app-toolbar'>
+			<div id='toolbar-icon'></div>
+			<div id='toolbar-title'></div>
+			<div id='toolbar-actions'>
+				<div class='toolbar-actions-item' id='toolbar-actions-close'></div>
+                <div class='toolbar-actions-item' id='toolbar-actions-maximize'></div>
+                <div class='toolbar-actions-item' id='toolbar-actions-minimize'></div>
+            </div>
+		</div>
+
+        <!--
+			En este contenedor se cargaran las vistas a utilizar para esta ventana.
+			Cada ventana creada puede tener el mismo archivo inicial como este 'main.html' pero
+			cada ventana puede variar las vistas que tengan en su main en esta seccion 'view'
+		-->
+        <div id='view'></div>
+
+	</div>
+</body>
+</html>

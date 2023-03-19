@@ -1,0 +1,54 @@
+/**
+* Este reset permitira establecer todos los estilos,
+* margenes, paddings y demas a un estado inicial por defecto.
+* Para de esta manera poder darle un estilo a cada uno de los elementos
+* que nos permitira tener un mayor control en toda la aplicacion respecto al diseño.
+*/
+@charset "UTF-8";
+*{
+	border:none;
+	border-radius:0px 0px;
+	color:#000;
+	font-size:4vmin;
+	font-family:"Montserrat-Regular";
+	outline: 0px;
+	text-decoration:none;
+	list-style:none;
+	margin:0px 0px;
+	padding:0px 0px;
+	top:0px;
+	left:0px;
+	user-select:none;
+    overflow:hidden;
+}
+*:hover{
+	outline: 0px;
+}
+*:active{
+	outline: 0px;
+}
+*:focus{
+	border: 0px;
+	outline: 0px;
+}
+*:normal{
+	outline: 0px;
+}
+a{
+	cursor:default;
+}
+html, body{
+    background-color:transparent;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+::-webkit-scrollbar{
+    background-color:rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:window-inactive{
+    background-color:rgba(255,255,255,0.1);
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgba(255,255,255,0.2);
+}

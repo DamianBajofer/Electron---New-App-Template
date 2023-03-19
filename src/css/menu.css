@@ -1,0 +1,71 @@
+/**
+* Este es el estilo de la barra de menu lateral,
+* este menu es un menu por defecto de la vista 'main.html'
+* pero claramente puede ser comentado o eliminado, o simplemente modificado a gusto
+* de cada diseñador.
+*/
+#menu{
+    background-color:#292C31;
+    box-shadow:inset -0.15vmin 0vmin 0.1vmin rgba(255, 255, 255, 0.075);
+    width:4%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+}
+#menu .item{
+    width:100%;
+    height:5vmin;
+    border-top:1px solid transparent;
+    border-bottom:1px solid transparent;
+    padding:1vmin 0vmin 1vmin 0vmin;
+}
+#menu .item.menu{
+    background:url('../images/toolbar/menu.svg') center center no-repeat;
+    background-size:50%;
+    opacity:0.6;
+    transition:100ms;
+}
+#menu .item.home{
+    background:url('../images/toolbar/home.svg') center center no-repeat;
+    background-size:50%;
+    opacity:0.6;
+    transition:100ms;
+}
+#menu .item.settings{
+    background:url('../images/toolbar/settings.svg') center center no-repeat;
+    background-size:60%;
+    opacity:0.6;
+    transition:100ms;
+}
+#menu .item.applications{
+    background:url('../images/toolbar/generator.svg') center center no-repeat;
+    background-size:50%;
+    opacity:0.6;
+    transition:100ms;
+}
+#menu .item.user{
+    background:url('../images/toolbar/user.svg') center center no-repeat;
+    background-size:50%;
+    opacity:0.6;
+    transition:100ms;
+}
+#menu .item.donate{
+    background:url('../images/toolbar/donate.svg') center center no-repeat;
+    background-size:60%;
+    opacity:0.6;
+    transition:100ms;
+}
+#menu .item[selected]{
+    background-color:rgba(255,255,255,0.1);
+    border-top:1px solid rgba(0,0,0,0.3);
+    border-bottom:1px solid rgba(0,0,0,0.3);
+    opacity:1;
+}
+#menu .item:hover{
+    background-color:rgba(255,255,255,0.1);
+    opacity:1;
+}
+#menu .item.menu:hover{
+    background-color:rgba(0, 183, 255, 0.623);
+    opacity:1;
+}

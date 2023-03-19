@@ -1,0 +1,88 @@
+/**
+* Estas son todas las fuentes extras que puedes utilizar en
+* toda la aplicacion, claramente podras agregar mas de ser necesario.
+*/
+@font-face{
+	font-family:"Asap-Regular";
+	src: url("../fonts/Asap/Asap-Regular.ttf");
+}
+@font-face{
+	font-family:"Asap-Medium";
+	src: url("../fonts/Asap/Asap-Medium.ttf");
+}
+@font-face{
+	font-family:"Asap-MediumItalic";
+	src: url("../fonts/Asap/Asap-MediumItalic.ttf");
+}
+@font-face{
+	font-family:"Asap-Italic";
+	src: url("../fonts/Asap/Asap-Italic.ttf");
+}
+@font-face{
+	font-family:"Asap-SemiBold";
+	src: url("../fonts/Asap/Asap-SemiBold.ttf");
+}
+@font-face{
+	font-family:"Asap-Bold";
+	src: url("../fonts/Asap/Asap-Bold.ttf");
+}
+@font-face{
+	font-family:"Asap-BoldItalic";
+	src: url("../fonts/Asap/Asap-BoldItalic.ttf");
+}
+@font-face{
+	font-family:"Asap-SemiBoldItalic";
+	src: url("../fonts/Asap/Asap-SemiBoldItalic.ttf");
+}
+@font-face{
+	font-family:"Alegreya-Regular";
+	src: url("../fonts/Alegreya/Alegreya-Regular.ttf");
+}
+@font-face{
+	font-family:"Alegreya-Medium";
+	src: url("../fonts/Alegreya/Alegreya-Medium.ttf");
+}
+@font-face{
+	font-family:"Alegreya-MediumItalic";
+	src: url("../fonts/Alegreya/Alegreya-MediumItalic.ttf");
+}
+@font-face{
+	font-family:"Lato-Light";
+	src: url("../fonts/Lato/Lato-Light.ttf");
+}
+@font-face{
+	font-family:"Lato-LightItalic";
+	src: url("../fonts/Lato/Lato-LightItalic.ttf");
+}
+@font-face{
+	font-family:"Lato-Regular";
+	src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+@font-face{
+	font-family:"Hind-Light";
+	src: url("../fonts/Hind/Hind-Light.ttf");
+}
+@font-face{
+	font-family:"Hind-Regular";
+	src: url("../fonts/Hind/Hind-Regular.ttf");
+}
+@font-face{
+	font-family:"Hind-Medium";
+	src: url("../fonts/Hind/Hind-Medium.ttf");
+}
+@font-face{
+	font-family:"Hind-Bold";
+	src: url("../fonts/Hind/Hind-Bold.ttf");
+}
+@font-face{
+	font-family:"Hind-SemiBold";
+	src: url("../fonts/Hind/Hind-SemiBold.ttf");
+}
+@font-face{
+	font-family:"Montserrat-Bold";
+	src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+@font-face{
+	font-family:"Montserrat-Regular";
+	src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
